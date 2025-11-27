@@ -1,0 +1,8 @@
+Table urls {
+  id              int        [pk, increment]
+  original_url    text       [not null, unique]
+  short_code      varchar(5) [not null, unique]
+  created_at      timestamp  [not null, default: `now()`]
+  click_count     bigint     [not null, default: 0] // how many times redirected
+  last_accessed_at timestamp // last time someone hit the short URL
+}
