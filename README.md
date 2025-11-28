@@ -154,7 +154,6 @@ curl "http://localhost:8000/api/v1/urls/aB3xY/stats"
 | `REDIS_CACHE_TTL` | Cache TTL in seconds | `86400` (24h) |
 | `LOG_LEVEL` | Logging level | `INFO` |
 
-See [`.env.example`](.env.example) for complete configuration.
 
 ---
 
